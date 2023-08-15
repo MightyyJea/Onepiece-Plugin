@@ -1,0 +1,7 @@
+name: OnePiece
+version: '${project.version}'
+main: redrob.onepiece.OnePiece
+api-version: '1.18'
+commands:
+  spawnFruit:
+    description: salut
