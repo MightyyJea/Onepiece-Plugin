@@ -20,6 +20,7 @@ public class PlayerSneak implements Listener {
         if(this.plugin.getFruitManager().isAOwner(e.getPlayer()) && this.plugin.getFruitManager().getDevilFruitWithPlayer(e.getPlayer()).getFruitItem().equals(e.getPlayer().getItemInUse()) && e.isSneaking()){
             this.plugin.getFruitManager().getDevilFruitWithPlayer(e.getPlayer()).SneakInteraction();
             e.getPlayer().sendMessage("owner sneak");
+            e.getPlayer().sendMessage("test");
         }
     }
 }

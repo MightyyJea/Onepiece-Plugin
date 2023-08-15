@@ -34,6 +34,7 @@ public class PlayerInteract implements Listener {
                 this.plugin.getFruitManager().getDevilFruitWithPlayer(e.getPlayer()).RightClickInteraction();
             }
             if(e.getAction().equals(Action.LEFT_CLICK_BLOCK)){
+
                 this.plugin.getFruitManager().getDevilFruitWithPlayer(e.getPlayer()).LeftClickInteraction();
             }
             e.setCancelled(true);
